@@ -168,64 +168,6 @@ body{
 
 
 
-/*
-.logo{
-    font-family: GreatVibes;
-    font-size:40px;
-    font-weight: bold;
-    color:var(--color-logo);
-    line-height: 70px;
-    float:left;
-}
-
-header{
-    height: 70px;
-    background: var(--color-header);
-}
-
-
-
-
-#header{
-    width: 64%;
-    margin: 0px auto;
-}
-
-.menu{
-    margin-left: 20%;
-}
-
-.menu ul li:first-child{
-    margin-left: 11%;
-}
-
-.menu ul li{
-    display: inline-block;
-    line-height: 70px;
-    margin-left: 40px;
-    font-family: Outfit;
-    font-weight: 400;
-    font-size:20px;
-}
-*/
-/* .menu ul li a{ */
-    /* text-decoration: none;
-    color: var(--color-logo);
-    transition: text-decoration-color 3000ms; */
-    /* color: var(--color-logo);
-    text-decoration: underline 0.15em rgba(255, 255, 255, 0);
-    transition: text-decoration-color 300ms;
-    text-underline-offset: 10px;
-}
-
-.menu ul li a:hover{
-   
-    text-decoration-color: var(--color-logo);
-    text-underline-offset: 10px;
-    
-    
-} */
-
 #firstcontainer{
     width:100%;
     overflow: hidden;
@@ -237,11 +179,7 @@ header{
     
 }
 
-#firstcontainer img{
-    width:100%;
-    position:absolute
-    
-}
+
 
 #firstcontainer .opacityblack{
     background-color: rgba(0, 0, 0, 1);
@@ -869,4 +807,91 @@ footer{
     .contacto-footer{
         font-size: 12px;
     }
+}
+
+
+
+
+
+/*CONTACTO PAGE*/
+
+
+/* #firstcontainer{
+    width:100%;
+    overflow: hidden;
+    height: 800px;
+    background-image: url("../img/FotoPrincipal.png");
+    background-repeat: no-repeat;
+    background-size: 2200px;
+    background-position: 0px -400px;
+    
+}
+
+#firstcontainer .opacityblack{
+    background-color: rgba(0, 0, 0, 1);
+    width:100%;
+    height: 800px;
+    background: rgba(3, 3, 3, 0.8);
+
+}
+
+#firstcontainer .opacityblack .fcontainer-logo{
+    color: white;
+   
+    
+    
+    font-family: Lobster;
+
+    
+    
+    margin-left: 18%;
+    
+}
+
+.texto-grande-logo{
+    font-size: 48px;
+    padding-top: 400px;
+}
+
+.texto-peque-logo{
+    padding-left: 40px;
+} */
+
+
+#contacto-first-container{
+    width:100%;
+    overflow: hidden;
+    height: 200px;
+    background-image: url("../img/FotoPrincipal.png");
+    background-repeat: no-repeat;
+    background-size: 1950px;
+    background-position: 0px -400px;
+}
+
+#contacto-first-container .contacto-opacityblack{
+    background-color: rgba(0, 0, 0, 1);
+    width:100%;
+    height: 200px;
+    background: rgba(3, 3, 3, 0.8);
+
+}
+
+.contacto-fcontainer-texto{
+    color: white;
+    text-align: center;
+    line-height: 200px;
+    font-family: Lobster;
+    font-weight: 400;
+    font-size:40px;
+}
+
+
+.contacto-container{
+    background:#B3A181;
+    min-height: 320px;
+}
+
+.contacto-container-titulo{
+    font-family: Lobster;
+    text-align: center;
 }
