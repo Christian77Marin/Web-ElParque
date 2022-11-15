@@ -777,13 +777,13 @@ footer{
 
     .donde-estamos iframe{
         width: 75%;
-        margin-left:10%;
+        margin-left:12%;
         margin-right: 10%;
         
     }
 
     .donde-estamos p{
-        margin-left:10%;
+        margin-left:12%;
         margin-right: 15%;
     }
 
@@ -855,5 +855,16 @@ footer{
         width: 90%;
         margin-left: 5%;
         margin-right: 5%;
+    }
+
+    .caja-galeria img {
+        width: 80%;
+        margin-left: 10%;
+        border-radius: 3%;
+        box-shadow: 0px 0px 17px 0px rgb(0 0 0 / 41%);
+    }
+
+    .contacto-footer{
+        font-size: 12px;
     }
 }
