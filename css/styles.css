@@ -627,7 +627,34 @@ footer{
     /* .contacto-footer {
         align
     } */
+    .container-horario {
+       
+        flex-direction: column;
+       
+    }
+    .horario-container {
+        
+        text-align: center;
+    }
 
+    .horario-container ul{
+        list-style-type: none;
+        margin-right: 24%;
+    }
+
+    
+
+    .donde-estamos iframe{
+        width: 75%;
+        margin-left:12%;
+        margin-right: 10%;
+        
+    }
+
+    .donde-estamos p{
+        margin-left:12%;
+        margin-right: 15%;
+    }
 
 }
 
@@ -760,32 +787,7 @@ footer{
 
 
 
-    .container-horario {
-       
-        flex-direction: column;
-       
-    }
-    .horario-container {
-        
-        text-align: center;
-    }
 
-    .horario-container ul{
-        list-style-type: none;
-        margin-right: 20%;
-    }
-
-    .donde-estamos iframe{
-        width: 75%;
-        margin-left:12%;
-        margin-right: 10%;
-        
-    }
-
-    .donde-estamos p{
-        margin-left:12%;
-        margin-right: 15%;
-    }
 
 
 
