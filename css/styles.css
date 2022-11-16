@@ -888,10 +888,63 @@ footer{
 
 .contacto-container{
     background:#B3A181;
-    min-height: 320px;
+    min-height: 490px;
 }
 
 .contacto-container-titulo{
     font-family: Lobster;
     text-align: center;
+}
+
+.formas-de-contacto{
+    width: 75%;
+    margin: 0px auto;
+
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    border-radius: 50px;
+    background: #b3a181;
+    box-shadow:  23px 23px 45px #98896e,
+                 -23px -23px 45px #ceb994;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+.formas-de-contacto img{
+    width: 80px;
+    /* margin-left: 45%; */
+    margin-bottom: 20px;
+    
+}
+
+.formas-de-contacto a{
+    text-align: center;
+    margin:0px;
+    display:block;
+    margin-bottom: 20px;
+    
+}
+
+.contacto-container .formas-de-contacto  a{
+    color: #5B1F39;
+    font-size: 20px;
+    font-family: Outfit;
+    text-decoration: none;
+ 
+}
+
+
+
+
+.contacto-container .formas-de-contacto  a:hover{
+    color: #491a2e;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contacto-container-titulo{
+    color: #5B1F39;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
