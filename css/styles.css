@@ -491,6 +491,12 @@ footer{
     #footer {
         width: 100%;
     }
+
+    .contacto-container .formas-de-contacto{
+        grid-template-columns: 1fr;
+    }
+
+
 }
 
 @media(max-width:1005px){
@@ -724,9 +730,14 @@ footer{
     }
 
 
+    .contacto-container .formas-de-contacto img {
+        width: 72px;
+      
+    }
 
-
-
+    .contacto-container .formas-de-contacto  .fdca{
+        font-size: 20px;
+    }
 
 
 
@@ -760,6 +771,16 @@ footer{
     .informacion-footer{
         display:none;
     }
+
+    .contacto-container .formas-de-contacto img {
+        width: 60px;
+      
+    }
+
+    .contacto-container .formas-de-contacto  .fdca{
+        font-size: 15px;
+        font-weight: bold;
+    }
 }
 
 
@@ -789,6 +810,21 @@ footer{
 
     }
 }
+
+@media (max-width: 422px) {
+    .contacto-container .formas-de-contacto  .emailfdca{
+        font-size: 12px;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 340px) {
+    .contacto-container .formas-de-contacto  .emailfdca{
+        font-size: 10px;
+        font-weight: bold;
+    }
+}
+
 
 @media (max-width: 320px) {
     .donde-estamos iframe {
@@ -889,6 +925,7 @@ footer{
 .contacto-container{
     background:#B3A181;
     min-height: 490px;
+    padding-bottom: 20px;
 }
 
 .contacto-container-titulo{
@@ -902,10 +939,15 @@ footer{
 
     display:grid;
     grid-template-columns: repeat(2,1fr);
+    border: 3px solid #5B1F39;
+    border-style: solid dashed;
     border-radius: 50px;
-    background: #b3a181;
-    box-shadow:  23px 23px 45px #98896e,
-                 -23px -23px 45px #ceb994;
+   
+
+    /* border-radius: 50px; */
+    
+    /* box-shadow:  23px 23px 45px #98896e,
+                 -23px -23px 45px #ceb994; */
     padding: 20px;
     margin-bottom: 20px;
 }
@@ -914,23 +956,23 @@ footer{
 .formas-de-contacto img{
     width: 80px;
     /* margin-left: 45%; */
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     
 }
 
-.formas-de-contacto a{
+
+
+.contacto-container .formas-de-contacto  a{
     text-align: center;
     margin:0px;
     display:block;
-    margin-bottom: 20px;
-    
-}
-
-.contacto-container .formas-de-contacto  a{
+    margin-bottom: 40px;
+    margin-top: 20px;
     color: #5B1F39;
-    font-size: 20px;
+    
     font-family: Outfit;
     text-decoration: none;
+    font-size: 27px;
  
 }
 
