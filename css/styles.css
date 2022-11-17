@@ -62,8 +62,12 @@ body{
     color: #5B1F39;
     height: 70px;
 
+    position: fixed;
+    top: 0;
+    width: 100%;
 
-    padding-right: 15%;
+
+    padding-right: 20%;
     padding-left: 15%;
 }
 
@@ -940,3 +944,4 @@ footer{
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
