@@ -1072,7 +1072,14 @@ footer {
 @media (max-width: 472px) {
     .gallery {
         width: 52%;
-        margin-left: 22%;
+        margin-left: 26%;
+    }
+}
+
+@media (max-width: 436px) {
+    .gallery {
+        width: 52%;
+        margin-left: 24%;
     }
 }
 
@@ -1086,7 +1093,7 @@ footer {
 @media (max-width: 369px) {
     .gallery {
         width: 64%;
-        margin-left: 16%;
+        margin-left: 21%;
     }
     .img-c{
         width:180px;
@@ -1097,8 +1104,8 @@ footer {
 
 @media (max-width: 330px) {
     .gallery {
-        width: 50%;
-        margin-left: 12%;
+        width: 65%;
+        margin-left: 16%;
     }
 }
 
