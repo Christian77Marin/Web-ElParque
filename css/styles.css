@@ -1142,6 +1142,7 @@ footer {
 
 .event-container .listacontainer img {
     width: 300px;
+    border-radius: 10px;
 }
 
 .mesas-container {
@@ -1154,6 +1155,7 @@ footer {
 
 .mesas-container .listacontainer img {
     width: 350px;
+    border-radius: 10px;
 }
 
 
