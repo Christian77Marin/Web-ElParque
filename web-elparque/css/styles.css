@@ -350,7 +350,7 @@ body {
 
 
 .texto-peque-logo-terraza {
-    padding-left: 32px;
+    padding-left: 165px;
 }
 
 
@@ -393,6 +393,7 @@ body {
     width: 100%;
     height: 300px;
     margin-top: 10px;
+    margin-bottom: 30px;
     border-radius: 15px;
     border: 5px solid black;
     box-shadow:
@@ -419,6 +420,12 @@ body {
 
 .horario-container ul {
     margin-left: 25%;
+    
+}
+
+.horario-container ul li{
+    font-size: 20px;
+    margin-bottom: 12px;
 }
 
 footer {
@@ -508,6 +515,14 @@ footer {
     }
 }
 
+@media(max-width:978px) {
+   
+    .horario-container p{
+        text-align: left;
+        margin-left: 15%;
+    }
+       
+    }
 
 @media(max-width:910px) {
     .photo-container {
@@ -582,6 +597,12 @@ footer {
     .horario-container {
 
         text-align: center;
+    }
+
+    .horario-container p{
+
+        text-align: center;
+        margin-left: 0%;
     }
 
     .horario-container ul {
@@ -1289,3 +1310,4 @@ background:#B3A181;
 .container-horario-yellow .donde-estamos-container p{
     color:#491a2e;
 }
+
