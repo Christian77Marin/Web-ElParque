@@ -175,7 +175,7 @@ body {
     width: 100%;
     overflow: hidden;
     height: 800px;
-    background-image: url("../img/FotoPrincipal.png");
+    background-image: url("../img/FotoPrincipal.jpg");
     background-repeat: no-repeat;
     background-size: 2200px;
     background-position: 0px -400px;
@@ -313,7 +313,7 @@ body {
     width: 100%;
     overflow: hidden;
     height: 800px;
-    background-image: url("../img/FotoTerraza.png");
+    background-image: url("../img/FotoTerraza.jpg");
     background-repeat: no-repeat;
     background-size: 2200px;
     background-position: 0px -500px;
@@ -452,20 +452,21 @@ footer {
     padding-top: 20px;
 }
 
-.contacto-footer img {
+.contacto-footer {
+    width: 310px;
+    margin-left: 15px; 
+}
+
+
+.contacto-footer a img {
     width: 5%;
 }
 
-.contacto-footer {
-    width: 310px;
-    margin-left: 15px;
-}
+
 
 #footer .contacto-footer a {
     text-decoration: none;
     color: black;
-
-
 }
 
 #footer .contacto-footer a:hover {
@@ -884,7 +885,7 @@ footer {
     width: 100%;
     overflow: hidden;
     height: 200px;
-    background-image: url("../img/FotoPrincipal.png");
+    background-image: url("../img/FotoPrincipal.jpg");
     background-repeat: no-repeat;
     background-size: 1950px;
     background-position: 0px -657px;
@@ -1224,7 +1225,7 @@ container-button .container-eventos-button {
     width: 100%;
     overflow: hidden;
 
-    background-image: url("../img/FotoPrincipal.png");
+    background-image: url("../img/FotoPrincipal.jpg");
     background-repeat: no-repeat;
     background-size: 2000px;
     background-position: 0px -651px;
