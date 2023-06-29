@@ -7,17 +7,19 @@ $(function() {
               
     
     $(".img-c").click(function() {
-      let w = $(this).outerWidth()
-      let h = $(this).outerHeight()
+      let w = $(this).outerWidth();
+      let h = $(this).outerHeight();
       let x = $(this).offset().left
       let y = $(this).offset().top
       
+    
       
+
       $(".active").not($(this)).remove()
       let copy = $(this).clone();
       copy.insertAfter($(this)).height(h).width(w).delay(500).addClass("active")
-      $(".active").css('top', y - 8);
-      $(".active").css('left', x - 8);
+      $(".active").css('top', y - 6);
+      $(".active").css('left', x - 6);
       
         setTimeout(function() {
       copy.addClass("positioned")
