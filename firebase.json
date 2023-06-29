@@ -1,6 +1,8 @@
 {
   "hosting": {
     "public": "web-elparque",
+    "cleanUrls": true,
+    "trailingSlash": true,
     "ignore": [
       "firebase.json",
       "**/.*",
