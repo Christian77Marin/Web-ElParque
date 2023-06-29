@@ -1032,8 +1032,7 @@ footer {
 .img-c.active {
     width: 90% !important;
     height: 90% !important;
-    /* margin-left: 25%;
-    margin-top: 15%; */
+
     margin: 0px auto;
     margin-top: 90px;
     position: fixed;
